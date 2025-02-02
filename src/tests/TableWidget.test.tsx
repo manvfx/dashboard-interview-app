@@ -1,7 +1,8 @@
 /// <reference types="@testing-library/jest-dom" />
 
-import React from 'react';
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render } from '@testing-library/react';
+import { screen } from '@testing-library/dom';
+import { fireEvent } from '@testing-library/dom';
 import TableWidget from '../components/widgets/TableWidget';
 import axios from 'axios';
 import { act } from 'react-dom/test-utils';
